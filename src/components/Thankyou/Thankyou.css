@@ -1,0 +1,29 @@
+.thankyou-parent{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.thankyou-parent .thankyou-container{
+  background-color:#f3f4f6;
+  padding:2rem 2rem;
+}
+
+.thankyou-parent .thankyou-container h2{
+  margin-bottom:1rem;
+}
+
+.thankyou-parent .thankyou-container p{
+  margin-bottom:1rem;
+}
+
+.thankyou-parent .thankyou-container a{
+  text-decoration:none;
+  color:#e5122e;
+}
+
+.thankyou-parent .thankyou-container a:hover{
+  text-decoration:underline;
+}

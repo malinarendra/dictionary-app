@@ -1,0 +1,62 @@
+.card{
+  width:100%;
+}
+
+.card .card-upper{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 2rem;
+}
+
+.card .card-upper span{
+  font-size:25px;
+  font-style: italic;
+  font-weight:bold;
+}
+
+.card .card-upper hr{
+  border:2px solid #8080804a;
+  width:80%;
+  border-radius:2px;
+}
+
+.card .card-lower{
+  font-size:20px;
+}
+
+.card .card-lower p.meaning{
+  margin-bottom:2rem;
+}
+
+.card .card-lower ul li{
+  color:#000000b0;
+  margin-left:20px;
+}
+
+.card .card-lower ul{
+  margin-bottom:2rem;
+}
+
+.card .card-lower ul li::marker{
+  color:#556ee9;
+}
+
+.card .card-lower p.synonym{
+  margin-bottom:2rem;
+  color:#0000008c;
+}
+
+.card .card-lower p.synonym span{
+  color:#556ee9;
+  margin-left:2rem;
+}
+
+@media screen and (max-width:450px){
+  .card .card-upper hr {
+    width: 70%;
+  }
+  .card .card-lower {
+    font-size: 18px;
+}
+}

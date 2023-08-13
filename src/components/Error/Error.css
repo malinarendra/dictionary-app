@@ -1,0 +1,29 @@
+.error-container{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.error-container .error{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.error-container .error h1{
+  color:#556ee9;
+  font-size:6rem;
+}
+
+.error-container .error p{
+  margin-bottom:10px;
+  font-size:25px;
+  color: #0000009e;
+}
+
+.error-container .error a{
+  font-size:20px;
+  color:black;
+}
